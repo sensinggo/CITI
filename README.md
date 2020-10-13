@@ -6,6 +6,8 @@
 ## Demo Video
 [![DEMO Video Link](https://i.imgur.com/xcV3WAH.png)](https://youtu.be/RssWuITBI1A)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RssWuITBI1A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Model Architecture
 
 ```
