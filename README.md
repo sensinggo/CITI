@@ -3,6 +3,9 @@
 ## Open Dataset Download
 [SensingGO](https://sensinggo.org/)
 
+## Demo Video
+[![DEMO Video Link](https://i.imgur.com/xcV3WAH.png)](https://youtu.be/RssWuITBI1A)
+
 ## Model Architecture
 
 ```
