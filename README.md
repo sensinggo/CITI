@@ -9,6 +9,10 @@
 
 ## CITTI Android App
 
+### Overview
+This image shows how we implement all modules in CITTI for Android.
+![](https://i.imgur.com/NboIY19.png)
+
 
 ## About Identifier (CNN) of CITTI
 
