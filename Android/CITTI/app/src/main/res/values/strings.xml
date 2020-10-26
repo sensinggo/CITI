@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CITTI</string>
+    <string name="shapefile_path">"/data/data/com.example.citti/files/shapefile/gadm36_TWN_2.shp"</string>
+    <string name="output_path">"/data/data/com.example.citti/files/o.png"</string>
+</resources>
