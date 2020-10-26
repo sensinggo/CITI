@@ -1,12 +1,26 @@
 # CITTI
 
-## Open Dataset Download
-[SensingGO](https://sensinggo.org/)
-
 ## Demo Video
+- Official Demo Video
 [![DEMO Video Link](https://i.imgur.com/xcV3WAH.png)](https://youtu.be/RssWuITBI1A)
 
-## Model Architecture
+- Prototype Video (the video of the app presented in this open source)
+[![Prototype Video Link](https://i.imgur.com/8G87bt9.png)](https://youtu.be/fKPKyPXN_no)
+
+## CITTI Android App
+
+
+## About Identifier (CNN) of CITTI
+
+### Description
+📁 DeepLearning<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 data_preprocess-phase1.ipynb, 📄 data_preprocess-phase2.ipynb: preprocess the original data and generate cellular images<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 train.ipynb.ipynb: train a CNN from cellular images<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 oldTrain.csv: original training data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 oldTest.csv, 📄 new_test_v2.csv: original two testing data<br>
+        
+
+### CNN Model Architecture
 
 ```
 _________________________________________________________________
@@ -42,7 +56,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-## Hyperparameters
+### Hyperparameters
 
 <table>
     <tbody>
@@ -104,10 +118,10 @@ _________________________________________________________________
     </tbody>
 </table>
 
-## Experiment Environment
+### Experiment Environment
 A PC with a 16-core CPU and an Nvidia GTX 1080 GPU.
 
-## Training Time
+### Training Time
 The training process based on the above model architecture and hyperparameters settings generally early-stops within epoch 15 and 25. Each epoch takes about 150 seconds, so the training time of a CITTI CNN model is about 40 minutes to one hour.
 
 The following is 5 example epochs reported by Keras framework during our training process:
@@ -131,3 +145,6 @@ Epoch 00004: val_acc did not improve from 0.99316
 Epoch 5/40
 528/819 [==================>...........] - ETA: 44s - loss: 0.0059 - acc: 0.9983
 ```
+
+## Open Dataset Download
+[SensingGO](https://sensinggo.org/)
