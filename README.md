@@ -7,7 +7,7 @@
 - Prototype Video (the video of the app presented in this github page)
 [![Prototype Video Link](https://i.imgur.com/8G87bt9.png)](https://youtu.be/fKPKyPXN_no)
 
-## CITTI Android App
+## About CITTI Android App
 
 ### Overview
 This image shows how we implement all modules in CITTI for Android.
@@ -17,14 +17,15 @@ This image shows how we implement all modules in CITTI for Android.
 
 
 ### Instruction
-- Source code of the CITTI Android app is in 📁 `Android`
+- Source codes of the CITTI Android app are in 📁 `Android`
 - All the files in `CITTI/Android/CITTI/app/src/main/assets/` should be put in the directory `/data/data/com.example.CITTI/files/` in the smartphone before launching the CITTI app.
+- Require location-related permission.
 - `Init` button: read `celltable.csv` into local Android Room Database
 - `Query` button: for logging (only for experimental usage)
 - `Clear` button: clear the local Android Room Database
 - `Test` button: start running CITTI algorithm
 
-※ Notice: The code presented in this github page is only for demostration. Therefore, the cell table is incomplete and the cellular information is provided by a given file containing some pre-collected cellular information (which is collected on a HSR) instead of a SIM card. This however can be controlled by the `CELL_INFO_SRC = SRC_SIM`/`CELL_INFO_SRC = SRC_FILE` in MainActivity, but please make sure the local cell table contains the information of the base stations your smartphones are connecting to. 
+※ Notice: The code presented in this github page is only for demostration. Therefore, the cell table is incomplete and the cellular information is provided by a given file containing some pre-collected cellular information (which is collected on an HSR) instead of a SIM card. This however can be controlled by the `CELL_INFO_SRC = SRC_SIM`/`CELL_INFO_SRC = SRC_FILE` in MainActivity, but please make sure the local cell table contains the information of the base stations your smartphones are connecting to. 
 
 ## About Identifier (CNN) of CITTI
 
