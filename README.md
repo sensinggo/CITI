@@ -14,6 +14,43 @@ This image shows how we implement all modules in CITTI for Android.
 ![](https://i.imgur.com/NboIY19.png)
 
 ### Experiment Environment
+The following table lists the smartphones where we deployed CITTI for our experiments.
+<table>
+    <tbody>
+        <tr>
+            <td></td>
+            <td>Chipset</td>
+            <td>CPU</td>
+            <td>GPU</td>
+            <td>RAM</td>
+            <td>Android Ver.</td>
+        </tr>
+        <tr>
+            <td>Oppo A5</td>
+            <td>Qualcomm SDM665 Snapdragon 665 (11 nm)</td>
+            <td>Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)</td>
+            <td>Adreno 610</td>
+            <td>4 GB</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Oppo A5</td>
+            <td>Qualcomm SDM636 Snapdragon 636 (14 nm)</td>
+            <td>Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)</td>
+            <td>Adreno 509</td>
+            <td>3 GB</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Samsung Galaxy A30s</td>
+            <td>Exynos 7904 (14 nm)</td>
+            <td>Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)</td>
+            <td>Mali-G71 MP2</td>
+            <td>4 GB</td>
+            <td>9</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ### Instruction
