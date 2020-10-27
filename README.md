@@ -34,7 +34,7 @@ The following table lists the smartphones where we deployed CITTI for our experi
             <td>10</td>
         </tr>
         <tr>
-            <td>Oppo A5</td>
+            <td>ASUS ZenFone Max Pro (ZB602KL)</td>
             <td>Qualcomm SDM636 Snapdragon 636 (14 nm)</td>
             <td>Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)</td>
             <td>Adreno 509</td>
