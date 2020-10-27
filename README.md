@@ -12,6 +12,10 @@
 ### Overview
 This image shows how we implement all modules in CITTI for Android.
 ![](https://i.imgur.com/NboIY19.png)
+- The cellular information can be collected through calling the [`getAllCellInfo()`](https://developer.android.com/reference/android/telephony/TelephonyManager#getAllCellInfo()) function defined in `android.telephony.TelephonyManager`.
+- Feature Generator first maps the collected cellular information to a GPS location. The location can be derived either from searching in a local database implemented with [`Room`](https://developer.android.com/jetpack/androidx/releases/room) in this project, or looking up through open APIs (e.g. Google API, OpenCellid) when the searching in a local database fails. After the GPS location is retrieved, CITTI app further maps the location to required GIS information with the help of [GADM](https://gadm.org/data.html) and [Android ArcGis Runtime SDK](https://developers.arcgis.com/android/latest/).
+- Plotter utilizes the features generated from the Feature Generator and plots the corresponding figure using [Androidplot](http://androidplot.com/) library.
+- Identifier takes in the figure output from the Plotter, and the CNN model in the Identifier gives out the identification result of that figure. The CNN model is original implemented with [Keras](https://keras.io/) and trained in a PC as described in [About Identifier (CNN) of CITTI](#about-identifier-cnn-of-citti). After the model is well-trained, the Keras model is transformed into a [Tensorflow Lite](https://www.tensorflow.org/lite) model to be deployable for smartphones.
 
 ### Experiment Environment
 The following table lists the smartphones where we deployed CITTI for our experiments.
