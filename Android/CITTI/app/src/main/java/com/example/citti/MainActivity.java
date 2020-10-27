@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements myWorkerThread.Ca
 
     private final int SRC_FILE = 0;
     private final int SRC_SIM = 1;
-    private int CELL_INFO_SRC = SRC_SIM;
+    private int CELL_INFO_SRC = SRC_FILE;
     private boolean mTesting = false;
 
     private int NUM_CLASS = 5;
