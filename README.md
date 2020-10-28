@@ -70,6 +70,13 @@ The following table lists the smartphones where we deployed CITTI for our experi
 
 ## About Identifier (CNN) of CITTI
 
+### Instruction
+📁 `DeepLearning`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 `data_preprocess-phase1.ipynb`, 📄 `data_preprocess-phase2.ipynb`: preprocess the original data and generate cellular images<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 `train.ipynb`: train a CNN from cellular images<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 `oldTrain.csv`: original training data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📄 `oldTest.csv`, 📄 `new_test_v2.csv`: original two testing data<br>
+
 ### Experiment Environment
 **ASUS E500 G5 Workstation**
 <table>
@@ -95,15 +102,7 @@ The following table lists the smartphones where we deployed CITTI for our experi
             <td>GeForce GTX 1080</td>
         </tr>
     </tbody>
-</table>
-
-### Description
-📁 `DeepLearning`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;📄 `data_preprocess-phase1.ipynb`, 📄 `data_preprocess-phase2.ipynb`: preprocess the original data and generate cellular images<br>
-&nbsp;&nbsp;&nbsp;&nbsp;📄 `train.ipynb`: train a CNN from cellular images<br>
-&nbsp;&nbsp;&nbsp;&nbsp;📄 `oldTrain.csv`: original training data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;📄 `oldTest.csv`, 📄 `new_test_v2.csv`: original two testing data<br>
-        
+</table>        
 
 ### CNN Model Architecture
 
