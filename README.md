@@ -177,7 +177,31 @@ _________________________________________________________________
 </table>
 
 ### Experiment Environment
-A PC with a 16-core CPU and an Nvidia GTX 1080 GPU.
+**ASUS E500 G5 Workstation**
+<table>
+    <tbody>
+        <tr>
+            <td>OS</td>
+            <td>Ubuntu 18.04.3 LTS</td>
+        </tr>
+        <tr>
+            <td>CPU</td>
+            <td>Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz</td>
+        </tr>
+        <tr>
+            <td>Core Number</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Memory</td>
+            <td>16 GB</td>
+        </tr>
+        <tr>
+            <td>GPU</td>
+            <td>GeForce GTX 1080</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Training Time
 The training process based on the above model architecture and hyperparameters settings generally early-stops within epoch 15 and 25. Each epoch takes about 150 seconds, so the training time of a CITTI CNN model is about 40 minutes to one hour.
