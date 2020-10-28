@@ -70,6 +70,33 @@ The following table lists the smartphones where we deployed CITTI for our experi
 
 ## About Identifier (CNN) of CITTI
 
+### Experiment Environment
+**ASUS E500 G5 Workstation**
+<table>
+    <tbody>
+        <tr>
+            <td>OS</td>
+            <td>Ubuntu 18.04.3 LTS</td>
+        </tr>
+        <tr>
+            <td>CPU</td>
+            <td>Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz</td>
+        </tr>
+        <tr>
+            <td>Core Number</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Memory</td>
+            <td>16 GB</td>
+        </tr>
+        <tr>
+            <td>GPU</td>
+            <td>GeForce GTX 1080</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Description
 📁 `DeepLearning`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;📄 `data_preprocess-phase1.ipynb`, 📄 `data_preprocess-phase2.ipynb`: preprocess the original data and generate cellular images<br>
@@ -172,33 +199,6 @@ _________________________________________________________________
             <td><b>Batch</b></td>
             <td>size</td>
             <td>128</td>
-        </tr>
-    </tbody>
-</table>
-
-### Experiment Environment
-**ASUS E500 G5 Workstation**
-<table>
-    <tbody>
-        <tr>
-            <td>OS</td>
-            <td>Ubuntu 18.04.3 LTS</td>
-        </tr>
-        <tr>
-            <td>CPU</td>
-            <td>Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz</td>
-        </tr>
-        <tr>
-            <td>Core Number</td>
-            <td>12</td>
-        </tr>
-        <tr>
-            <td>Memory</td>
-            <td>16 GB</td>
-        </tr>
-        <tr>
-            <td>GPU</td>
-            <td>GeForce GTX 1080</td>
         </tr>
     </tbody>
 </table>
