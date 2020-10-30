@@ -5,7 +5,7 @@
 [![DEMO Video Link](https://i.imgur.com/O1VUKTH.png)](https://youtu.be/i6xr1mHK0L0)
 
 - Prototype Video (the video of the app presented in this github page)
-[![Prototype Video Link](https://i.imgur.com/8G87bt9.png)](https://youtu.be/fKPKyPXN_no)
+[![Prototype Video Link](https://i.imgur.com/f9g13ir.png)](https://youtu.be/OLKLzYMBMFk)
 
 ## About CITTI Android App
 
